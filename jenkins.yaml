@@ -8,6 +8,9 @@ jenkins:
 		local:
 			allowsSignup: false
 		users:
+			- id: "admin"
+			  name: "admin"
+			  password: "password"
 			- id: "chocolateen"
 			  name: "Hugo"
 			  password: "${USER_CHOCOLATEEN_PASSWORD}"
